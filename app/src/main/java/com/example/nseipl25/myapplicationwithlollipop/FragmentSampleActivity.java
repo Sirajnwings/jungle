@@ -20,7 +20,7 @@ public class FragmentSampleActivity extends AppCompatActivity
 
     private boolean mIsInBackAnimation = false;
 
-    String  a,b;
+    String  a,b,e;
 
     String dummy,c,d;
 
