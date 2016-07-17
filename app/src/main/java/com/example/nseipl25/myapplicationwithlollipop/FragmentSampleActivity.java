@@ -22,7 +22,7 @@ public class FragmentSampleActivity extends AppCompatActivity
 
     String  a,b;
 
-    String dummy;
+    String dummy,c;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
