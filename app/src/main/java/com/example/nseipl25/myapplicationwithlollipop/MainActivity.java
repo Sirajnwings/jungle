@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean mIsBaseOnTouchLocation = false;
 
+    private String temp="";
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {

@@ -24,6 +24,8 @@ public class FragmentSampleActivity extends AppCompatActivity
 
     String dummy,c,d;
 
+    String q;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
