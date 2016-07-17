@@ -20,12 +20,16 @@ public class FragmentSampleActivity extends AppCompatActivity
 
     private boolean mIsInBackAnimation = false;
 
-    String  a;
+    String  a,b;
+
+    String dummy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+
+
 
         setContentView(R.layout.activity_fragment);
 
