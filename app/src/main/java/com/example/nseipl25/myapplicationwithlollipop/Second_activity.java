@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.Window;
 
 public class Second_activity extends Activity {
+    String ok="o";
 
     @Override
     protected void onStop() { super.onStop(); Log.v("Second_activity", "onStop");  }

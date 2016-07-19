@@ -22,6 +22,8 @@ public class MainActivity extends Activity {
 
     //AppCompatActivity
 
+    String ju = "h";
+
      // private RevealLayout mRevealLayout;
 
     // private boolean mIsAnimationSlowDown = false;
