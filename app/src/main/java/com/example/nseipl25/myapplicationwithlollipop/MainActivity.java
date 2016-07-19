@@ -28,6 +28,8 @@ public class MainActivity extends Activity {
 
     String book="demo";
 
+    String well="";
+
      // private RevealLayout mRevealLayout;
 
     // private boolean mIsAnimationSlowDown = false;
