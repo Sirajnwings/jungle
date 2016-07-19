@@ -10,7 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-//import android.util.Log;
+import android.util.Log;
 //import android.view.Menu;
 //import android.view.MenuItem;
 //import android.view.MotionEvent;
