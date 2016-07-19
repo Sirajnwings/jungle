@@ -42,6 +42,8 @@ public class MainActivity extends Activity {
 
     Button btn_click;
 
+    String mpofu="";
+
     @Override
     protected void onStop() { super.onStop(); Log.v("MainActivity", "onStop");  }
 
