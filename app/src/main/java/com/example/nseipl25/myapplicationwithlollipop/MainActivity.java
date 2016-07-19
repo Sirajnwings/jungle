@@ -28,7 +28,9 @@ public class MainActivity extends Activity {
 
     String book="demo";
 
-    String well="";
+    String well="hai1";
+
+    String hai = "";
 
      // private RevealLayout mRevealLayout;
 
