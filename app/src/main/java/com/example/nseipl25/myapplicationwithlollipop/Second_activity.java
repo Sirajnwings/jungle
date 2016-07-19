@@ -10,6 +10,8 @@ import android.view.Window;
 public class Second_activity extends Activity {
     String ok="o",l="second";
 
+    String ly="l";
+
     @Override
     protected void onStop() { super.onStop(); Log.v("Second_activity", "onStop");  }
 

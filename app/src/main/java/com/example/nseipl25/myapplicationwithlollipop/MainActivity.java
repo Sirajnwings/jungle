@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 
     String well="hai1";
 
-    String hai = "";
+    String hai = "ji";
 
      // private RevealLayout mRevealLayout;
 
