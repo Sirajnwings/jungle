@@ -31,8 +31,6 @@ public class FragmentSampleActivity extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
 
-
-
         setContentView(R.layout.activity_fragment);
 
         if (savedInstanceState == null)

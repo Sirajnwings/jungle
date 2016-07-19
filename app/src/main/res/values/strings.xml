@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application With Lollipop</string>
+
+    <string name="clcikme">CLICK ME</string>
+
+    <string name="slow">SLOW</string>
+
+    <string name="touch">TOUCH</string>
+    <string name="title_activity_download_picasso_test">download_picasso_test</string>
+
+    <string name="missing_content_description">No Image</string>
+
+
+</resources>

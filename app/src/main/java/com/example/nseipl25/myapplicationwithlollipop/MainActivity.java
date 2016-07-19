@@ -3,8 +3,9 @@ package com.example.nseipl25.myapplicationwithlollipop;
 //import android.os.Build;
 import android.app.Activity;
 // import android.support.v7.app.AppCompatActivity;
-import android.app.AlertDialog;
-import android.content.DialogInterface;
+// import android.app.AlertDialog;
+// import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -17,7 +18,9 @@ import android.widget.Button;
 
 import com.example.nseipl25.animation.RevealLayout;
 
-public class MainActivity extends Activity {  //AppCompatActivity
+public class MainActivity extends Activity {
+
+    //AppCompatActivity
 
      // private RevealLayout mRevealLayout;
 
@@ -30,34 +33,22 @@ public class MainActivity extends Activity {  //AppCompatActivity
     Button btn_click;
 
     @Override
-    protected void onStop() {
-        super.onStop(); Log.v("MainActivity", "onStop");
-    }
+    protected void onStop() { super.onStop(); Log.v("MainActivity", "onStop");  }
 
     @Override
-    protected void onDestroy() {
-        super.onDestroy(); Log.v("MainActivity", "onDestroy");
-    }
+    protected void onDestroy() { super.onDestroy(); Log.v("MainActivity", "onDestroy"); }
 
     @Override
-    protected void onRestart() {
-        super.onRestart(); Log.v("MainActivity", "onRestart");
-    }
+    protected void onRestart() { super.onRestart(); Log.v("MainActivity", "onRestart"); }
 
     @Override
-    protected void onResume() {
-        super.onResume(); Log.v("MainActivity", "onResume");
-    }
+    protected void onResume() { super.onResume(); Log.v("MainActivity", "onResume");}
 
     @Override
-    protected void onPause() {
-        super.onPause(); Log.v("MainActivity", "onPause");
-    }
+    protected void onPause() { super.onPause(); Log.v("MainActivity", "onPause");}
 
     @Override
-    protected void onStart() {
-        super.onStart(); Log.v("MainActivity", "onStart");
-    }
+    protected void onStart() { super.onStart(); Log.v("MainActivity", "onStart");}
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -75,21 +66,24 @@ public class MainActivity extends Activity {  //AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-                alertDialog.setTitle("Activity Lose Focus Go OnPause Method");
-                alertDialog.setMessage("Dialog");
-                alertDialog.setCancelable(false);
+                //                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+//                alertDialog.setTitle("Activity Lose Focus Go OnPause Method");
+//                alertDialog.setMessage("Dialog");
+//                alertDialog.setCancelable(false);
+//
+//                alertDialog.setButton("OK", new DialogInterface.OnClickListener()
+//                {
+//                    public void onClick(DialogInterface dialog, int which)
+//                    {
+//                        dialog.dismiss();
+//
+//                    }
+//                });
+//
+//                alertDialog.show();
 
-                alertDialog.setButton("OK", new DialogInterface.OnClickListener()
-                {
-                    public void onClick(DialogInterface dialog, int which)
-                    {
-                        dialog.dismiss();
-
-                    }
-                });
-
-                alertDialog.show();
+                Intent i = new Intent(MainActivity.this,Second_activity.class);
+                startActivity(i);
             }
         });
     }
