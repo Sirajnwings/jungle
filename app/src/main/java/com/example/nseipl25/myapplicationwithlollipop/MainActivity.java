@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 
     //AppCompatActivity
 
-    String ju = "h";
+    String ju = "h",l="k";
 
      // private RevealLayout mRevealLayout;
 
