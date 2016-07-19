@@ -24,6 +24,9 @@ public class MainActivity extends Activity {
 
     String ju = "h",l="k";
 
+    String kalam="ha";
+
+
      // private RevealLayout mRevealLayout;
 
     // private boolean mIsAnimationSlowDown = false;
