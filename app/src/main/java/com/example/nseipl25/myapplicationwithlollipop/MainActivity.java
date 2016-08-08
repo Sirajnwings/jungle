@@ -67,37 +67,45 @@ public class MainActivity extends Activity {
     {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+       // setContentView(R.layout.activity_main);
 
         Log.v("MainActivity", "onCreate");
 
-        btn_click = (Button)findViewById(R.id.button);
+        Intent i = new Intent(MainActivity.this,Second_activity.class);
 
-        btn_click.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                //                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
-//                alertDialog.setTitle("Activity Lose Focus Go OnPause Method");
-//                alertDialog.setMessage("Dialog");
-//                alertDialog.setCancelable(false);
-//
-//                alertDialog.setButton("OK", new DialogInterface.OnClickListener()
-//                {
-//                    public void onClick(DialogInterface dialog, int which)
-//                    {
-//                        dialog.dismiss();
-//
-//                    }
-//                });
-//
-//                alertDialog.show();
+        startActivity(i);
 
-                Intent i = new Intent(MainActivity.this,Second_activity.class);
-                startActivity(i);
-            }
-        });
+        // finish();
+
+        //        btn_click = (Button)findViewById(R.id.button);
+//
+//        btn_click.setOnClickListener(new View.OnClickListener()
+//        {
+//            @Override
+//            public void onClick(View v)
+//            {
+//
+//                //                final AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+////                alertDialog.setTitle("Activity Lose Focus Go OnPause Method");
+////                alertDialog.setMessage("Dialog");
+////                alertDialog.setCancelable(false);
+////
+////                alertDialog.setButton("OK", new DialogInterface.OnClickListener()
+////                {
+////                    public void onClick(DialogInterface dialog, int which)
+////                    {
+////                        dialog.dismiss();
+////
+////                    }
+////                });
+////
+////                alertDialog.show();
+//
+//                 Intent i = new Intent(MainActivity.this,Second_activity.class);
+//                 startActivity(i);
+//            }
+//        });
+
     }
 
     // mRevealLayout = (RevealLayout) findViewById(R.id.reveal_layout);
